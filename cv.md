@@ -41,7 +41,8 @@ function expandedForm(num) {
     
 }  
 ```     
-
+**Education**  
+Yuzhno-Sakhalinsk Institute of Economics, Law and Informatics. Bachelor of Linguistics. 
 
 
 **Languages:**  
