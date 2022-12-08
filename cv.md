@@ -13,9 +13,9 @@ Being a tutor of English I realized a necessity of applying languages not only f
 
 **Skills:** 
 
-    +Git, GitHub novice  
-    +VS Code novice  
-    +JavaScript novice  
+    -Git, GitHub novice  
+    -VS Code novice  
+    -JavaScript novice  
     
     
 **Code example:**  
@@ -46,6 +46,6 @@ function expandedForm(num) {
 
 **Languages:**  
 
-    Russian Native  
-    English Advanced  
-    Japanese Basic  
+    Russian - Native  
+    English - Advanced  
+    Japanese - Basic  
