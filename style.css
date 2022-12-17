@@ -2,60 +2,99 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	font-family: 'Arvo', serif;
+	font: 18px 400 'Arvo', serif;
+	line-height: 1.5;
 	color:brown;
 	background-color:antiquewhite;
-  }
+}
 .header {
 	font: bold small-caps 24px 'Arvo', serif;
 	color:brown;
 	background-color:peru;
 	text-align: center;
 }
+a, a:visited {
+	color: brown;
+}
+a:hover {
+	color: wheat;
+}
 .nav-list {
 	list-style: none;
 }
 .nav-item {
 	display: inline;
-	margin-right: 20px; 
-    padding: 10px; 
+	margin-right: 20px;
+	padding: 10px;
 }
 .nav-link {
 	transition: .3s;
-  }
-
+}
 .container {
 	max-width: 1440px;
-    margin: 0 auto;
+	margin: 0 auto;
 }
 * {
-    box-sizing: border-box;
-  }
-
-  .main-container {
+	box-sizing: border-box;
+}
+.main-container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-  }
-  
-  .section {
+}
+.section {
 	width: 50%;
-  }
-
-  @media (max-width: 768px) {
+	padding: 20px;
+}
+@media (max-width: 768px) {
 	.section {
-	  width: 100%;
-	}
-  }
-#contacts {
+		width: 100%;
+   }
+}
+.contacts {
 	text-align: center;
 	list-style: none;
+}
+#contact-information {
+	text-align: center;
 }
 h1 {
 	font-size: 64px;
 }
-
-  
-  
-  
-  
+.photo {
+	text-align: center;
+	max-width: 100%;
+}
+.footer {
+	font: bold small-caps 24px 'Arvo', serif;
+	color:brown;
+	background-color:peru;
+	text-align: center;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+p {
+	margin: 8px 0;
+}
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+pre {
+	overflow-x: auto;
+	border: 2px dashed #7f1f1f;
+	padding: 20px;
+	background-color: rgb(73 44 4);
+	color: #e9dcdc;
+}
